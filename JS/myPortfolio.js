@@ -52,7 +52,7 @@ $(document).ready(function () {
             var hash = this.hash;
             $('html, body').animate({
 
-                scrollTop: ($(hash).offset().top - 15)
+                scrollTop: ($(hash).offset().top - 30)
 
             }, 1000, function () {
 

@@ -13,10 +13,6 @@ main{
     flex: 1;
 }
 
-section{
-    min-height: 100vh;
-}
-
 /* For every Card in the website */
 .card{
     color: #000;
@@ -280,3 +276,33 @@ header.jumbotron{
     outline: none;
     box-shadow: none;
 }
+
+@media all and (max-width: 568px){
+
+    .display-4{
+        font-size: 2.2rem;
+    }
+
+    .owl-prev{
+        left: -25px;
+    }
+
+    .owl-next{
+        right: -25px;
+    }
+
+    ul{
+        padding-inline-start: 10px;
+    }
+
+    #skills ul.TnT > li::before{
+        content: "❖ ";
+        padding-right: 5px;
+    }
+
+    #skills ul.TnT {
+        padding-inline-start: 0;
+        font-size: 1rem;
+    }
+}
+

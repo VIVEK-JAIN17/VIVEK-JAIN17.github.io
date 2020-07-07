@@ -111,6 +111,8 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+$("button.owl-dot").attr("aria-label", "carousel-indicator");
+
 $("#formsubmit").click(function () {
     alert("This Form Doesn't Work Yet !")
 });

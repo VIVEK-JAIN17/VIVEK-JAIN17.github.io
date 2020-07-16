@@ -1,0 +1,25 @@
+{
+  "name": "vivek-jain17.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VIVEK-JAIN17/VIVEK-JAIN17.github.io.git"
+  },
+  "author": "VIVEK JAIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VIVEK-JAIN17/VIVEK-JAIN17.github.io/issues"
+  },
+  "homepage": "https://github.com/VIVEK-JAIN17/VIVEK-JAIN17.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

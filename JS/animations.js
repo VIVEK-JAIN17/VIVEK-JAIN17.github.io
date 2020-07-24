@@ -4,7 +4,7 @@ animate = {
     "Animations": "fadeInUp",
     "Duration": "400ms",
     "Delay": delay + "ms",
-    "Visible": "true",
+    "Visible": "false",
     "Resetoffscreen": "false",
     // "Repeat": "false"
 };

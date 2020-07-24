@@ -4,8 +4,8 @@ animate = {
     "Animations": "fadeInUp",
     "Duration": "400ms",
     "Delay": delay + "ms",
-    "Visible": "false",
-    "Resetoffscreen": "false",
+    "Visible": true,
+    "Resetoffscreen": false,
     // "Repeat": "false"
 };
 
@@ -33,7 +33,7 @@ $ele.each(function () {
     $(this).attr("data-animation-duration", animate.Duration);
     $(this).attr("data-animation-delay", animate.Delay);
     $(this).attr("data-animation-when-visible", animate.Visible);
-    $(this).attr("data-animation-reset-offscreen", animate.Resetoffscreen);
+    // $(this).attr("data-animation-reset-offscreen", animate.Resetoffscreen);
 })
 
 // $imgs.each(function () {

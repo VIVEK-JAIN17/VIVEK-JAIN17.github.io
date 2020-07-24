@@ -5,7 +5,7 @@ animate = {
     "Duration": "400ms",
     "Delay": delay + "ms",
     "Visible": "true",
-    "Resetoffscreen": "true",
+    "Resetoffscreen": "false",
     // "Repeat": "false"
 };
 

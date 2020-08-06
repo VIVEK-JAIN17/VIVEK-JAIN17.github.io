@@ -1,12 +1,12 @@
 #body{
-    /* background-image: url("Images/gradient1.png");
+    background-image: url("Images/gradient1.png");
     background-repeat: repeat;
-    background-size: cover; */
-    background: hsla(198, 64%, 44%, 1);
+    background-size: cover;
+    /* background: hsla(198, 64%, 44%, 1);
     background: linear-gradient(270deg, hsla(198, 64%, 44%, 1) 0%, hsla(198, 63%, 32%, 1) 25%, hsla(199, 100%, 20%, 1) 50%, hsla(203, 78%, 16%, 1) 75%, hsla(209, 54%, 12%, 1) 100%);        
     background: -moz-linear-gradient(270deg, hsla(198, 64%, 44%, 1) 0%, hsla(198, 63%, 32%, 1) 25%, hsla(199, 100%, 20%, 1) 50%, hsla(203, 78%, 16%, 1) 75%, hsla(209, 54%, 12%, 1) 100%);
     background: -webkit-linear-gradient(270deg, hsla(198, 64%, 44%, 1) 0%, hsla(198, 63%, 32%, 1) 25%, hsla(199, 100%, 20%, 1) 50%, hsla(203, 78%, 16%, 1) 75%, hsla(209, 54%, 12%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#288db8", endColorstr="#1e6685", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#288db8", endColorstr="#1e6685", GradientType=1 ); */
 }
 
 main{

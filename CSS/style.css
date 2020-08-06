@@ -1,82 +1,107 @@
-#body{
-    background-image: url("Images/gradient1.png");
+#body {
+  /* background-image: url("Images/gradient1.png");
     background-repeat: repeat;
-    background-size: cover;
-    /* background: hsla(198, 64%, 44%, 1);
-    background: linear-gradient(270deg, hsla(198, 64%, 44%, 1) 0%, hsla(198, 63%, 32%, 1) 25%, hsla(199, 100%, 20%, 1) 50%, hsla(203, 78%, 16%, 1) 75%, hsla(209, 54%, 12%, 1) 100%);        
-    background: -moz-linear-gradient(270deg, hsla(198, 64%, 44%, 1) 0%, hsla(198, 63%, 32%, 1) 25%, hsla(199, 100%, 20%, 1) 50%, hsla(203, 78%, 16%, 1) 75%, hsla(209, 54%, 12%, 1) 100%);
-    background: -webkit-linear-gradient(270deg, hsla(198, 64%, 44%, 1) 0%, hsla(198, 63%, 32%, 1) 25%, hsla(199, 100%, 20%, 1) 50%, hsla(203, 78%, 16%, 1) 75%, hsla(209, 54%, 12%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#288db8", endColorstr="#1e6685", GradientType=1 ); */
+    background-size: cover; */
+  background: hsla(198, 64%, 44%, 1);
+  background: linear-gradient(
+    270deg,
+    hsla(198, 64%, 44%, 1) 0%,
+    hsla(198, 63%, 32%, 1) 25%,
+    hsla(199, 100%, 20%, 1) 50%,
+    hsla(203, 78%, 16%, 1) 75%,
+    hsla(209, 54%, 12%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(198, 64%, 44%, 1) 0%,
+    hsla(198, 63%, 32%, 1) 25%,
+    hsla(199, 100%, 20%, 1) 50%,
+    hsla(203, 78%, 16%, 1) 75%,
+    hsla(209, 54%, 12%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(198, 64%, 44%, 1) 0%,
+    hsla(198, 63%, 32%, 1) 25%,
+    hsla(199, 100%, 20%, 1) 50%,
+    hsla(203, 78%, 16%, 1) 75%,
+    hsla(209, 54%, 12%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#288db8", endColorstr="#1e6685", GradientType=1 );
 }
 
-main{
-    flex: 1;
+main {
+  flex: 1;
 }
 
 /* For every Card in the website */
-.card{
-    color: #000;
+.card {
+  color: #000;
 }
 
-.card-title, .card-subtitle{
-    text-transform: capitalize;
+.card-title,
+.card-subtitle {
+  text-transform: capitalize;
 }
 
-#mainNavbar{
-    background-color: #132a3f;
+#mainNavbar {
+  background-color: #132a3f;
 }
 
-#mainNavbar .navbar-brand, #mainNavbar .nav-link{
-    font-weight: 300;
+#mainNavbar .navbar-brand,
+#mainNavbar .nav-link {
+  font-weight: 300;
 }
 
-#mainNavbar .nav-link{
-    color: rgba(220, 220, 220, 0.8);
+#mainNavbar .nav-link {
+  color: rgba(220, 220, 220, 0.8);
 }
 
-#mainNavbar .nav-link:hover, #mainNavbar .nav-link:focus, #mainNavbar .nav-link:active{
-    color: rgb(255, 255, 255);
+#mainNavbar .nav-link:hover,
+#mainNavbar .nav-link:focus,
+#mainNavbar .nav-link:active {
+  color: rgb(255, 255, 255);
 }
 
-#mainNavbar .navbar-brand{
-    font-size: 1.5rem;
+#mainNavbar .navbar-brand {
+  font-size: 1.5rem;
 }
 
-#mainNavbar .nav-link{
-    font-size: 1.25rem;
+#mainNavbar .nav-link {
+  font-size: 1.25rem;
 }
 
-#mainNavbar.scrolled{
-    background-color: #2f4051;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    transition: all 400ms linear 0s;
+#mainNavbar.scrolled {
+  background-color: #2f4051;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  transition: all 400ms linear 0s;
 }
 
 /* Used in every Section */
-.wide{
-    letter-spacing: 0.5rem;
-    text-transform: uppercase;
+.wide {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
 }
 
-.text-wt-200{
-    font-weight: 200;
+.text-wt-200 {
+  font-weight: 200;
 }
 
-.btn-outline-aqua{
-    color: aqua !important;
-    border: 1px solid aqua !important;
+.btn-outline-aqua {
+  color: aqua !important;
+  border: 1px solid aqua !important;
 }
 
-.btn-outline-aqua:hover{
-    color: #fff !important;
-    background: rgba(0, 200, 200, 0.8) !important;
-    border: 1px solid aqua !important;
+.btn-outline-aqua:hover {
+  color: #fff !important;
+  background: rgba(0, 200, 200, 0.8) !important;
+  border: 1px solid aqua !important;
 }
 
-header.jumbotron{
-    background: transparent;
-    margin-top: 5rem;
+header.jumbotron {
+  background: transparent;
+  margin-top: 5rem;
 }
 
 /* ul.hand-right li::before{
@@ -86,223 +111,224 @@ header.jumbotron{
 } */
 
 .card,
-.img-container{
-    height: 100%;
+.img-container {
+  height: 100%;
 }
 
-#education .card{
-    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.25);
+#education .card {
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-.separate{
-    border-bottom: 1px solid rgba(250, 250, 250, 0.25);
+.separate {
+  border-bottom: 1px solid rgba(250, 250, 250, 0.25);
 }
 
-.skill-item{
-    width: 100%;
+.skill-item {
+  width: 100%;
 }
 
-.skill-item h6{
-    text-align: right;
-    text-transform: uppercase;
+.skill-item h6 {
+  text-align: right;
+  text-transform: uppercase;
 }
 
-.skill-bar{
-    width: 100%;
-    height: 6px;
-    background-color: rgba(250, 250, 250, 0.25);
-    position: relative;
+.skill-bar {
+  width: 100%;
+  height: 6px;
+  background-color: rgba(250, 250, 250, 0.25);
+  position: relative;
 }
 
-.span-circle{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    background-color: #fff;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    border-radius: 50%;
-    position: absolute;
-    top: -20px;
-    z-index: 1;
+.span-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  z-index: 1;
 }
 
-.filled-bar{
-    width: 0;
-    height: 6px;
-    background-color: #fff;
-    position: absolute;
-    /* left: 20px; */
-    transition: width 0.7s linear 0s;
+.filled-bar {
+  width: 0;
+  height: 6px;
+  background-color: #fff;
+  position: absolute;
+  /* left: 20px; */
+  transition: width 0.7s linear 0s;
 }
 
-#skills h6{
-    text-transform: uppercase;
+#skills h6 {
+  text-transform: uppercase;
 }
 
 @counter-style thumbs {
-    system: cyclic;
-    symbols: "\1F44D";
-    suffix: " ";
-  }
-
-#skills ul.TnT{
-    list-style: none;
-    font-size: 1.3rem;
-    padding-inline-start: 10px;
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " ";
 }
 
-#skills ul.TnT > li::before{
-    content: "❖ ";
-    padding-right: 10px ;
+#skills ul.TnT {
+  list-style: none;
+  font-size: 1.3rem;
+  padding-inline-start: 10px;
 }
 
-.bg-blur{
+#skills ul.TnT > li::before {
+  content: "❖ ";
+  padding-right: 10px;
+}
+
+.bg-blur {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: -3px 3px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.text-custom {
+  color: rgba(250, 250, 250, 0.5);
+}
+
+@media all and (min-width: 768px) {
+  .shadow {
     background: rgba(255, 255, 255, 0.1);
-    box-shadow: -3px 3px 10px 10px rgba(0, 0, 0, 0.25);
-}
-
-.text-custom{
-    color: rgba(250, 250, 250, 0.5);
-}
-
-@media all and (min-width: 768px){
-
-    .shadow{
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.01), 1px 1px 5px 5px rgba(0, 0, 0, 0.05), 1px 1px 7px 7px rgba(0, 0, 0, 0.10);
-    }
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.01),
+      1px 1px 5px 5px rgba(0, 0, 0, 0.05), 1px 1px 7px 7px rgba(0, 0, 0, 0.1);
+  }
 }
 
 /* Changed the maximum widht of bootstrap container according to my needs and requirement (only for medium viewport) */
-@media all and (min-width: 768px) and (max-width: 992px){
-    .container{
-        max-width: 800px;
-    }
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 800px;
+  }
 }
 
-.gal-img{
-    width: 100%;
-    height: 100%;
-    background-image: url("../Images/gradient.png");
-    border: 1px solid #000000;
+.gal-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/gradient.png");
+  border: 1px solid #000000;
 }
 
 /* ********** OWL CAROUSEL SETTINGS ********** */
 
-.owl-prev{
-    left: -40px;
+.owl-prev {
+  left: -40px;
 }
 
-.owl-next{
-    right: -40px;
+.owl-next {
+  right: -40px;
 }
 
-.owl-prev, .owl-next{
-    position: absolute;
-    top: 35%;
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 35%;
 }
 
-.owl-prev span, .owl-next span{
-    font-size: 3rem;
-    color: rgba(250, 250, 250, 0.50);
+.owl-prev span,
+.owl-next span {
+  font-size: 3rem;
+  color: rgba(250, 250, 250, 0.5);
 }
 
-.owl-prev span:hover, .owl-next span:hover{
-    color: #fff;
+.owl-prev span:hover,
+.owl-next span:hover {
+  color: #fff;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: none;
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
 }
 
-.owl-theme .owl-nav [class*=owl-]:focus {
-    outline: none;
+.owl-theme .owl-nav [class*="owl-"]:focus {
+  outline: none;
 }
 
-.owl-carousel .owl-stage{
-    display: flex;
+.owl-carousel .owl-stage {
+  display: flex;
 }
 
 .item {
-    display: flex;
-    flex: 1 0 auto;
-    height: 100%;
+  display: flex;
+  flex: 1 0 auto;
+  height: 100%;
 }
 
 #projects .card {
-    position: relative;
-    overflow: hidden;
-    /* margin-bottom: 80px; *//*This is optional*/
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+  position: relative;
+  overflow: hidden;
+  /* margin-bottom: 80px; */ /*This is optional*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
-.info-div{
-    min-height: 6rem;
-    line-height: 6rem;
-    font-size: 1.1rem;
-    font-weight: 300;
-    background: rgba(255, 255, 255, 0.14);
-    border-radius: 10px;
+.info-div {
+  min-height: 6rem;
+  line-height: 6rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
 }
 
-.dimension{
-    height: 3rem;
-    line-height: 3rem;
+.dimension {
+  height: 3rem;
+  line-height: 3rem;
 }
 
-.input-div{
-    background: transparent;
-    border: 1px solid rgba(220, 220, 220, 0.4);
-    border-radius: 10px;
-    transition: all 200ms linear 0s;
+.input-div {
+  background: transparent;
+  border: 1px solid rgba(220, 220, 220, 0.4);
+  border-radius: 10px;
+  transition: all 200ms linear 0s;
 }
 
-.input-div:focus{
-    outline: none;
-    border: 1px solid rgba(255, 255, 255);
+.input-div:focus {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255);
 }
 
-#formsubmit{
-    width: 100% !important;
-    border-radius: 10px;
+#formsubmit {
+  width: 100% !important;
+  border-radius: 10px;
 }
 
-#formsubmit:focus{
-    outline: none;
-    box-shadow: none;
+#formsubmit:focus {
+  outline: none;
+  box-shadow: none;
 }
 
-@media all and (max-width: 568px){
+@media all and (max-width: 568px) {
+  .display-4 {
+    font-size: 2.2rem;
+  }
 
-    .display-4{
-        font-size: 2.2rem;
-    }
+  .owl-prev {
+    left: -25px;
+  }
 
-    .owl-prev{
-        left: -25px;
-    }
+  .owl-next {
+    right: -25px;
+  }
 
-    .owl-next{
-        right: -25px;
-    }
+  ul {
+    padding-inline-start: 10px;
+  }
 
-    ul{
-        padding-inline-start: 10px;
-    }
+  #skills ul.TnT > li::before {
+    content: "❖ ";
+    padding-right: 5px;
+  }
 
-    #skills ul.TnT > li::before{
-        content: "❖ ";
-        padding-right: 5px;
-    }
-
-    #skills ul.TnT {
-        padding-inline-start: 0;
-        font-size: 1rem;
-    }
+  #skills ul.TnT {
+    padding-inline-start: 0;
+    font-size: 1rem;
+  }
 }
-

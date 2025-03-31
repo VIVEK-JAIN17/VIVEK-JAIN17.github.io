@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://use.fontawesome.com/a852d6f662.js"></script>
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="CSS/style.css">
@@ -19,65 +17,33 @@
 
 <body class="container-fluid p-0 m-0 d-flex flex-column" id="body">
     <main class="container-fluid p-0 ">
-
         <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark py-md-3 fixed-top">
             <a class="navbar-brand" href="#">My Portfolio</a>
-            <a href="VivekJainResume2021.pdf" title="resume.pdf"
-                class="btn btn-outline-aqua rounded d-none d-lg-inline-block ml-lg-3">Resume</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mr-5">
-                    <li class="nav-item active">
-                        <a href="#about" class="nav-link"> About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#education" class="nav-link"> Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link"> Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#experience" class="nav-link"> Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link"> My Work</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a href="#Gallery" class="d-none d-md-block nav-link"> Gallery</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"> Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="VivekJainResume2021.pdf" class="nav-link d-lg-none"> Resume</a>
-                    </li>
-                </ul>
+                <ul id="navbar-items" class="navbar-nav ml-auto mr-5"></ul>
             </div>
         </nav>
 
         <section class="container-fluid" id="about">
-
             <header class="jumbotron">
-
                 <h1 class="text-center display-4 wide animate-plus">About Me</h1>
                 <div class=" text-center mb-5 animate-plus">Who Am I ?</div>
                 <div class=" row align-items-center justify-content-around">
                     <div class="col-lg-8 mb-5 mb-lg-0">
                         <h2 class="text-wt-200"> Hello There ! I am </h2>
                         <h3 class="display-1 d-none d-sm-block">Vivek Jain</h3>
-                        <!-- <h1 class="display-3 d-block d-sm-none animate-plus">Vivek Jain</h1> -->
-                        <ul class="lead list-unstyled">
-                            <li class=""> A Third year Computer Science Engineering undergraduate student.
-                            </li>
-                            <li class=""> Keen learner and a passionate programmer who thrives to solve real
-                                word problems.</li>
-                        </ul>
+                        <p class="lead">
+                            A results-driven software engineer with nearly three years of experience in designing,
+                            developing, and optimizing software solutions. Demonstrated ability to deliver and maintain
+                            high-performance, reliable software systems. A collaborative problem-solver, dedicated to
+                            producing quality, maintainable code. Eager to contribute to challenging projects and expand
+                            technical expertise within a dynamic team environment.
+                        </p>
                     </div>
-
                     <div class="d-block d-lg-inline-block col-6 col-lg-4 mt-5 m-lg-0">
                         <img class="img-fluid" src="Images/Bird.png" alt="bird-logo">
                     </div>
@@ -93,37 +59,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 order-2">
                     <div class="container-fluid">
-                        <div class="row justify-content-around">
-                            <div class="col-sm-8 col-md-6 mb-4">
-                                <div class="card border-dark rounded-lg">
-                                    <img src="Images/School.jpg" alt="School" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Abhinav Public School</h4>
-                                        <h5 class="card-subtitle text-muted">2009 - 2018</h5>
-                                        <h6 class="card-subtitle pt-3 text-muted">10 CGPA Class-10th</h6>
-                                        <h6 class="card-subtitle pt-3 text-muted">8.89 CGPA Class-12th</h6>
-                                        <div class="card-text pt-3">Completed my primary and secondary level Education
-                                            at Abhinav Public School, CU-Block Pitampura with an excellent academic
-                                            record.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-8 col-md-6 mb-4">
-                                <div class="card border-dark rounded-lg">
-                                    <img src="Images/college.png" alt="college" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Guru Gobind Singh Indraprastha University</h4>
-                                        <h5 class="card-subtitle text-muted">2018 - 2022 <small>(expected)</small></h5>
-                                        <h6 class="card-subtitle pt-3 text-muted">7.28 CGPA upto 2<sup>nd</sup> Semester
-                                        </h6>
-                                        <div class="card-text pt-3">Currently persuing my Bahcelors degree in Computer
-                                            Science Engineering at B.M. Institute of Engineering and Technology
-                                            affiliated from Guru Gobind Singh Indraprastha University.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div id="education-container" class="row justify-content-around">
                         </div>
                     </div>
                 </div>
@@ -135,7 +71,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -301,230 +236,18 @@
         <section class="container-fluid py-5 text-light" id="experience">
             <h1 class="text-center display-4 wide animate-plus">Experience</h1>
             <div class="text-center mb-5 animate-plus">What I Have Done ?</div>
-
-            <div class="row align-items-center justify-content-around p-lg-4">
-                <div class="col-10 col-lg-7 p-4 bg-blur rounded-lg">
-                    <h2>Coding Blocks <small>(pvt. ltd.)</small></h2>
-                    <h3 class="d-none">blank</h3>
-                    <h4>TA Internship</h4>
-                    <h5 class="d-none">blank</h5>
-                    <h6 class="text-custom">August,2019 - November,2019 <small>(4 months)</small></h6>
-
-                    <p class="lead pt-3">Done an Internship as a Teaching Assistant in a classroom programme offered by
-                        Coding Blocks at Pitampura. The Course emphasised on learning Data Structures and Algorithms
-                        using JAVA pogramming language. My Internship included the following
-                        <i class="fa fa-hand-pointer-o fa-rotate-180  ml-1" aria-hidden="true"></i>
-                    </p>
-                    <ul class="hand-right">
-                        <li>Helping Students grasp the concepts that were taught in the class.</li>
-                        <li>Doubt Solving after class as well as on online platforms such as Slack.</li>
-                        <li>Assisting Students in solving questions on HackerBlocks, an online coding platform by Coding
-                            Blocks.</li>
-                    </ul>
-                </div>
-
-                <div class="d-none d-lg-inline-block col-lg-5 pt-5 text-center">
-                    <img src="Images/Work3.png" alt="work" class="img-fluid">
-                </div>
-            </div>
-
-            <!-- Below is a Card view of an Experience -->
-            <!-- <div class="row">
-                <div class="col-10 col-md-6 col-lg-4">
-                    <div class="card border-dark-rounded-lg">
-                        <img src="Images/work.png" alt="work" height="220px" class="img-card-top">
-                        <div class="card-body">
-                            <h4 class="card-title">Coding Blocks <small>(pvt. ltd.)</small></h4>
-                            <h6 class="card-subtitle text-subtitle text-muted">Date/Duration</h6>
-                            <div class="card-text pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Possimus nostrum facere culpa? Facere voluptate ducimus ex adipisci cupiditate explicabo
-                                quidem harum repudiandae autem unde vitae aspernatur reprehenderit nemo maiores
-                                inventore, voluptatum nisi, molestiae aut praesentium minima nobis doloribus reiciendis
-                                veniam.</div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
+            <div id="experience-container"></div>
         </section>
 
         <section class="container-fluid py-5 text-light" id="projects">
             <h1 class="text-center display-4 wide animate-plus">my work</h1>
             <div class="text-center mb-5 animate-plus">Projects That I Have Made !</div>
-
             <div class="container shadow p-5">
                 <div class="row-justify-content-center align-items-center">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="card border-dark rounded-lg"><img src="Images/Work2.png"
-                                    alt="placeholder Image 4" class="img-fluid card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">YelpCampApp</h4>
-                                    <h5 class="d-none">blank</h5>
-                                    <h6 class="card-subtitle text-muted pb-2">Express Node MongoDB</h6>
-                                    <p class="card-text">A Web application that let's users post 'campgrounds' on the
-                                        app. Worked on User Authentication and Authorisation, RESTful APIs and Cloud
-                                        (Heroku).
-                                    </p>
-                                    <a href="https://yelpcampapp.herokuapp.com" target="_blank" class="text-secondary">
-                                        <i class="fa fa-link"></i>
-                                        <small>Project link</small></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card border-dark rounded-lg"><img src="Images/Work2.png" alt="placeholder Image"
-                                    class="img-fluid card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Blog App</h4>
-                                    <h5 class="d-none">blank</h5>
-                                    <h6 class="card-subtitle text-muted pb-2">Express Node MongoDB</h6>
-                                    <p class="card-text">A web application that let's users post 'Blogs' on the app.
-                                        Supports User Authntication and CRUD operations via MongoDB.
-                                    </p>
-                                    <a href="https://github.com/vivek-jain17/BlogApp" target="_blank"
-                                        class="text-secondary nav-link p-0">
-                                        <i class="fa fa-link"></i>
-                                        <small>Project link</small></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card border-dark rounded-lg"><img src="Images/Work2.png" alt="placeholder Image"
-                                    class="img-fluid card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Movie App</h4>
-                                    <h5 class="d-none">blank</h5>
-                                    <h6 class="card-subtitle text-muted pb-2">Express Node EJS</h6>
-                                    <p class="card-text">A simple web application that uses OMDb API to fetch data of
-                                        Movies/TV-shows and displays them to user in an Interactive format. Supports
-                                        search operation.
-                                    </p>
-                                    <a href="https://github.com/vivek-jain17/MovieApp" target="_blank"
-                                        class="text-secondary nav-link p-0">
-                                        <i class="fa fa-link"></i>
-                                        <small>Project link</small></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card border-dark rounded-lg"><img src="Images/Work2.png" alt="placeholder Image"
-                                    class="img-fluid card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Expensify</h4>
-                                    <h5 class="d-none">blank</h5>
-                                    <h6 class="card-subtitle text-muted pb-2">ReactJS Redux</h6>
-                                    <p class="card-text">A React application that let's users add several 'expenses' and
-                                        manages them for users. Users can also put a special 'note' regarding expense.
-                                    </p>
-                                    <a href="https://github.com/vivek-jain17/Expensify" target="_blank"
-                                        class="text-secondary nav-link p-0">
-                                        <i class="fa fa-link"></i>
-                                        <small>Project link</small></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card border-dark rounded-lg"><img src="Images/Work2.png" alt="placeholder Image"
-                                    class="img-fluid card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Indecision App</h4>
-                                    <h5 class="d-none">blank</h5>
-                                    <h6 class="card-subtitle text-muted pb-2">ReactJS SCSS</h6>
-                                    <p class="card-text">A simple React application that takes in several to-do items
-                                        and then picks one of them at random. Users can either remove a particular item
-                                        or all the items in the list.
-                                    </p>
-                                    <a href="https://github.com/vivek-jain17/IndecisionApp" target="_blank"
-                                        class="text-secondary nav-link p-0">
-                                        <i class="fa fa-link"></i>
-                                        <small>Project link</small></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card border-dark rounded-lg"><img src="Images/Work2.png" alt="project Image 3"
-                                    class="img-fluid card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Color Guessing Game</h4>
-                                    <h5 class="d-none">blank</h5>
-                                    <h6 class="card-subtitle text-muted pb-2">HTML CSS JavaScript</h6>
-                                    <p class="card-text">A JavaScript based colour guessing game, an interactive
-                                        method to improve skills in understanding RGB values.
-                                    </p>
-                                    <a href="https://vivek-jain17.github.io/colorGameProject/" target="_blank"
-                                        class="text-secondary"> <i class="fa fa-link"></i>
-                                        <small>Project link</small></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="projects-container"></div>
                 </div>
             </div>
         </section>
-
-        <!-- <section class="d-none d-md-block container-fluid py-5 text-light" id="Gallery">
-            <h1 class="text-center display-4 wide animate-plus">the image gallery</h1>
-            <div class="text-center mb-5 animate-plus">A Miscellaneous Gallery of Images</div>
-
-            <div class="container">
-                <div class="row m-0 outer-row">
-                    <div class="col-6 p-0">
-                        <img src="Images/CopyOfColorfulPanda.png" alt="galleryImage1" class="gal-img">
-                    </div>
-                    <div class="col-6 p-0">
-                        <div class="row m-0">
-                            <div class="col-6 col-md-4 p-0">
-                                <div class="row m-0">
-                                    <img src="Images/School.jpg" alt="galleryImage2" class="gal-img">
-                                </div>
-                                <div class="row m-0">
-                                    <img src="Images/Work3.png" alt="galleryImage3" class="gal-img">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-8 p-0">
-                                <img src="Images/college.png" alt="galleryImage4" class="gal-img">
-                            </div>
-                        </div>
-                        <div class="row m-0">
-                            <div class="col-6 col-md-8 p-0">
-                                <img src="Images/WordArt.png" alt="galleryImage5" class="gal-img">
-                            </div>
-                            <div class="col-6 col-md-4 p-0">
-                                <div class="row m-0">
-                                    <img src="Images/CopyOfColorfulPanda.png" alt="galleryImage6" class="gal-img">
-                                </div>
-                                <div class="row m-0">
-                                    <img src="Images/Education.png" alt="galleryImage7" class="gal-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m-0 outer-row">
-                    <div class="col-8 p-0">
-                        <img src="Images/college.png" alt="galleryImage8" class="gal-img">
-                    </div>
-                    <div class="col-4 p-0">
-                        <div class="row m-0">
-                            <img src="Images/School.jpg" alt="galleryImage9" class="gal-img">
-                        </div>
-                        <div class="row m-0">
-                            <img src="Images/Work3.png" alt="galleryImage10" class="gal-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center pt-5">
-                <div class="col-8 col-lg-6 text-justify">
-                    <p class="lead">I created this Image Gallery just for fun. It has no significant functionality right
-                        now in this website (My Portfolio). I created this Image Gallery just to play around with
-                        flexbox utilities in bootstrap and trying to understand the flexbox and grid system. Moreover,
-                        this whole Gallery is only visible in viewports medium and above.</p>
-                </div>
-            </div>
-        </section> -->
 
         <section class="container px-0 py-5 text-light" id="contact">
             <h1 class="text-center display-4 wide animate-plus">contact me</h1>
@@ -532,10 +255,6 @@
 
             <div class="row justify-content-center align-items-start">
                 <div class="col-md-7 px-4 px-md-0">
-                    <!-- <div class="info-div px-4 my-4">
-                        <i class="fa fa-map-marker fa-lg mr-2 mr-lg-4"></i>
-                        <div class="d-inline-block"> Max Heights Metroview Apartments, sector-35, Haryana, India </div>
-                    </div> -->
                     <div class="info-div pl-3 px-sm-4 my-4">
                         <i class="fa fa-phone fa-lg mr-2 mr-lg-4"></i>
                         <div class="d-inline-block">8570095681</div>
@@ -548,62 +267,34 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="col-md-6">
-                    <div class="row align-items-center p-4">
-                        <div class="col">
-                            <form action="get">
-                                <div class="form-group row my-4">
-                                    <input type="text" name="Name" id="name" placeholder="Name" required
-                                        class="position-static col input-div dimension text-light">
-                                </div>
-                                <div class="form-group row my-4">
-                                    <input type="email" name="Mail" id="mail" placeholder="Email" required
-                                        class="position-static col dimension input-div text-light">
-                                </div>
-                                <div class="form-group row my-4">
-                                    <textarea name="Message" id="message" placeholder="Message" rows="4"
-                                        class="position-static col pt-2 input-div text-light"></textarea>
-                                </div>
-                                <div class="form-group row my-4">
-                                    <button class="btn btn-outline-light text-center dimension p-0"
-                                        id="formsubmit">Submit</button>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                </div> -->
-
             </div>
 
             <div class="row justify-content-center align-items-center py-3">
-
                 <div class="text-center px-2">
-                    <a href="https://www.linkedin.com/in/vivekjain17" target="_blank" aria-label="linkedin-link"><i
-                            class="fa fa-linkedin-square fa-2x text-light"></i></a>
+                    <a href="https://www.linkedin.com/in/vivekjain17" target="_blank" aria-label="linkedin-link">
+                        <i class="fa fa-linkedin-square fa-2x text-light"></i>
+                    </a>
                 </div>
                 <div class="text-center px-2">
-                    <a href="https://www.github.com/VIVEK-JAIN17" target="_blank" aria-label="github-link"><i
-                            class="fa fa-github fa-2x text-light"></i></a>
+                    <a href="https://www.github.com/VIVEK-JAIN17" target="_blank" aria-label="github-link">
+                        <i class="fa fa-github fa-2x text-light"></i>
+                    </a>
                 </div>
                 <div class="text-center px-2">
-                    <a href="https://www.instagram.com/vivekjain1720/" target="_blank" aria-label="instagram-link"><i
-                            class="fa fa-instagram fa-2x text-light"></i></a>
+                    <a href="https://www.instagram.com/vivekjain1720/" target="_blank" aria-label="instagram-link">
+                        <i class="fa fa-instagram fa-2x text-light"></i>
+                    </a>
                 </div>
-
             </div>
-
         </section>
 
     </main>
 
     <footer class="container text-light pb-4">
-
         <div class="row justify-content-center">
             <small class="text-center d-block"> &copy; Created By Vivek Jain</small>
         </div>
-        <!-- <a href="#about"><button class="btn btn-lg btn-dark rounded-circle" id="special">&Wedge;</button></a> -->
-
+        
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
             integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -612,12 +303,14 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
-        <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/popper.js/dist/popper.min.js"></script> -->
         <script src="owlcarousel/owl.carousel.min.js"></script>
-        <script src="JS/animate-plus.js"></script>
-        <script src="JS/animations.js"></script>
-        <script src="JS/myPortfolio.js"></script>
+        <script src="./JS/animate-plus.js"></script>
+        <script src="./JS/animations.js"></script>
+        <script src="./JS/projects.js"></script>
+        <script src="./JS/my-portfolio.js"></script>
+        <script src="./JS/navbar-items.js"></script>
+        <script src="./JS/education.js"></script>
+        <script src="./JS/work-experience.js"></script>
     </footer>
 
 </body>

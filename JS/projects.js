@@ -90,5 +90,5 @@ const cardDataArray = [
     },
 ];
 
-// Call the function with your data and the container ID:
-renderCardItems(cardDataArray, "projects-container"); // Replace "card-container" with your actual container ID
+// Call the function with data and the container ID:
+renderCardItems(cardDataArray, "projects-container");

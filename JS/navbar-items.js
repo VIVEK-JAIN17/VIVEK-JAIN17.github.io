@@ -22,7 +22,7 @@ function renderNavbarItems(navItems, navContainerId) {
     });
 }
 
-// Example usage with an array of navigation items:
+// Navigation items:
 const navbarItems = [
     { href: "#about", text: "About" },
     { href: "#education", text: "Education" },
@@ -32,5 +32,5 @@ const navbarItems = [
     { href: "#contact", text: "Contact" },
 ];
 
-// Call the function with your navigation items and the container ID:
-renderNavbarItems(navbarItems, "navbar-items"); // Replace "navbar-items" with your actual ul ID
+// Call the function with navigation items and the container ID:
+renderNavbarItems(navbarItems, "navbar-items");

@@ -29,7 +29,7 @@ function renderEducationCards(educationDataArray, containerId) {
     });
 }
 
-// Example usage with JSON data:
+// JSON data:
 const educationDataArray = [
     {
         imageUrl: "Images/School.jpg",
@@ -49,9 +49,8 @@ const educationDataArray = [
         cgpa: "8.63 CGPA",
         description:
             "Completed my bahcelors degree in Computer Science Engineering at B.M. Institute of Engineering and Technology affiliated from Guru Gobind Singh Indraprastha University.",
-    },
-    // Add more education objects as needed
+    }
 ];
 
-// Call the function with your data and the container ID:
-renderEducationCards(educationDataArray, "education-container"); // Replace "education-container" with your actual container ID
+// Call the function with education data and the container ID:
+renderEducationCards(educationDataArray, "education-container");

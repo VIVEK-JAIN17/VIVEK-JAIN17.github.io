@@ -44,27 +44,39 @@ function renderExperienceDivs(data, containerId) {
     });
 }
 
-// Example usage with JSON data:
+// Experience JSON data:
 const experienceData = [
     {
         imageUrl: "Images/Work3.png",
-        title: "Zemoso technologies pvt. ltd.",
+        title: "Zemoso technologies pvt. ltd. (Skyflow)",
+        role: "Software Engineer III",
+        type: "",
+        dateRange: "July, 2025 - Present",
+        overview: "Delivered scale-critical SDK and data-processing features for a major enterprise client, while driving frontend feature development, design system leadership, and quality improvements for the Skyflow Studio platform.",
+        points: [
+            "Built a business-critical Hive UDF and key v3 Java SDK enhancements focused on scale and performance, directly enabling the finalization of a major enterprise client deal.",
+            "Quickly ramped up on Skyflow Studio's large codebase to start contributing, resolving widespread lint errors, raising unit test coverage by ~15%, shipping a new vault support feature, and maintaining the app through proactive bug fixes and periodic UI enhancements.",
+            "Led an end-to-end design system initiative for Studio, auditing existing components against Figma for inconsistencies and duplicates, building new components accordingly, then integrating them across the app by replacing existing usages of components like Button, TextField, and Checkbox."
+        ]
+    },
+    {
+        imageUrl: "Images/Work3.png",
+        title: "Zemoso technologies pvt. ltd. (Skyflow)",
         role: "Software Engineer II",
         type: "",
-        dateRange: "January,2024 - Present",
+        dateRange: "January, 2024 - June, 2025",
         overview: "Delivered high-impact solutions under tight deadlines, showcasing leadership and advanced technical skills in architectural overhauls and efficiency improvements.",
         points: [
             "Delivered critical SDK feature enhancements for a major client within tight deadlines, directly contributing to a $1M+ revenue increase, showcasing exceptional time-management and problem-solving skills.",
             "Led a major Java SDK architectural overhaul, reducing technical debt through idiomatic design, simplifying integrations via use of design patterns, while integrating generative AI tools, resulting in ~50% reduction in future development turnaround time."
         ]
-
     },
     {
         imageUrl: "Images/Work3.png",
-        title: "Zemoso technologies pvt. ltd.",
+        title: "Zemoso technologies pvt. ltd. (Skyflow)",
         role: "Software Engineer I",
         type: "",
-        dateRange: "July,2023 - December,2023",
+        dateRange: "July, 2023 - December, 2023",
         overview: "Expanded technical expertise and ensured business continuity through proactive bug resolution and cross-platform contributions.",
         points: [
             "Proactively identified and resolved critical bugs across multiple SDKs, including the Android SDK, ensuring business continuity.",
@@ -73,10 +85,10 @@ const experienceData = [
     },
     {
         imageUrl: "Images/Work3.png",
-        title: "Zemoso technologies pvt. ltd.",
+        title: "Zemoso technologies pvt. ltd. (Skyflow)",
         role: "Associate Software Engineer",
         type: "",
-        dateRange: "November,2022 - June,2023",
+        dateRange: "November, 2022 - June, 2023",
         overview: "Focused on enhancing SDK reliability and rapid feature delivery, demonstrating strong testing and development skills.",
         points: [
             "Engineered and implemented a comprehensive E2E test suite for the Android SDK using Espresso and Cucumber, significantly reducing potential customer-facing bugs and improving release reliability.",
@@ -88,7 +100,7 @@ const experienceData = [
         title: "Zemoso technologies pvt. ltd.",
         role: "Developer Intern",
         type: "(Internship)",
-        dateRange: "December,2021 - October,2022",
+        dateRange: "December, 2021 - October, 2022",
         overview: "Quickly mastered diverse technologies and contributed to a collaborative project, demonstrating strong technical adaptability and effective teamwork.",
         points: [
             "Rapidly acquired proficiency in 10+ technologies (SQL, Hibernate, GraphQL, etc.) through mentored learning and hands-on project development, adhering to SOLID principles and incorporating micro-service architecture.",
@@ -100,7 +112,7 @@ const experienceData = [
         title: "Nectars",
         role: "Full Stack Developer",
         type: "(Internship)",
-        dateRange: "August,2021 - November,2021",
+        dateRange: "August, 2021 - November, 2021",
         overview: "Developed and deployed comprehensive front-end and back-end solutions for a dynamic E-commerce platform and mobile application, focusing on efficient API creation and team collaboration.",
         points: [
             "Engineered and delivered robust front-end and back-end solutions for an e-commerce platform and mobile application, including 30+ fully tested APIs, within strict deadlines.",
@@ -112,7 +124,7 @@ const experienceData = [
         title: "Coding Blocks pvt. ltd.",
         role: "Teaching Assistant",
         type: "(Internship)",
-        dateRange: "August,2019 - November,2019",
+        dateRange: "August, 2019 - November, 2019",
         overview: "Did an internship as a teaching assistant in a classroom programme offered by coding blocks at pitampura. The course emphasised on learning data structures and algorithms using JAVA pogramming language.",
         points: [
             "Effectively instructed and supported students in Data Structures and Algorithms (DSA) and Java, including concept clarification, doubt resolution, and problem-solving assistance.",
@@ -121,5 +133,5 @@ const experienceData = [
     },
 ];
 
-// Call the function with your data and the container ID:
-renderExperienceDivs(experienceData, "experience-container"); // Replace "experience-container" with your actual container ID
+// Call the function with data and the container ID:
+renderExperienceDivs(experienceData, "experience-container");
